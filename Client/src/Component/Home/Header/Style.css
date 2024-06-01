@@ -1,0 +1,50 @@
+/* custom.css */
+
+/* Import the custom font */
+@import url('https://fonts.googleapis.com/css2?family=CrisisFont&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  display: none;
+}
+
+ul.show {
+  display: block;
+}
+
+.font-crisis {
+    font-family: 'CrisisFont', sans-serif;
+}
+
+.text-crisisGreen {
+    color: #4CAF50;
+}
+
+.tracking-wide {
+    letter-spacing: 0.05em;
+}
+
+.featured-video-container{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

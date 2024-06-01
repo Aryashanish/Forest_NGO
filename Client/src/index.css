@@ -1,0 +1,57 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=CrisisFont&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:host, :root, [data-theme]{
+--chakra-fonts-body: 'Montserrat', sans-serif;
+--chakra-fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+--text-color: #4a7020;
+--btn-color-500: #72B73B;
+--btn-color-400: #3cdd78;
+--chakra-colors-text-green: #4a7020;
+--chakra-fontWeights-normal: 400;
+--chakra-fonts-heading: Hackney, sans-serif;
+}
+
+*{
+    font-family: var(--chakra-fonts-body);
+    margin: 0;
+    padding: 0;
+}
+
+.btn-color{
+    background: var(--btn-color-500);
+}
+
+.border-check{
+    border: 2px solid red;
+}
+
+.text-title{
+    text-align: start;
+    font-size: 52px;
+    font-weight: var(--chakra-fontWeights-normal);
+    color: var(--chakra-colors-text-green);
+    font-family: var(--chakra-fonts-heading);
+    line-height: .9;
+}
+
+/* Define the custom styles */
+.font-crisis {
+    font-family: 'CrisisFont', sans-serif;
+}
+
+.text-crisisGreen {
+    color: var(--text-color);
+}
+
+.tracking-wide {
+    letter-spacing: 0.05em;
+}
+
+.link{
+    text-decoration: none;
+}

@@ -1,10 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import HomePage from './Component/Home/HomePage';
 
 function App() {
   return (
-    <div className='container'>
-      <h1>This is Home page</h1>
+    <div className='w-5/5'>
+      <HomePage />
     </div>
   )
 }
